@@ -9,7 +9,7 @@ const NAME_REGEX = /^[A-Za-zÁéíóúáéíóúÑñ\s]+$/;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const prueba ="se agrega prueba";
-
+const pruebasMaquinarias ="valor en string";
 
 export const checkPasswordStrength = (password) => {
   return {
