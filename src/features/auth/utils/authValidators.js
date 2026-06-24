@@ -8,6 +8,8 @@ export const PASSWORD_REGEXES = {
 const NAME_REGEX = /^[A-Za-zÁéíóúáéíóúÑñ\s]+$/;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+const prueba ="";
+
 export const checkPasswordStrength = (password) => {
   return {
     hasMinLength: PASSWORD_REGEXES.length.test(password),
