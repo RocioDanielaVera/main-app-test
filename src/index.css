@@ -1,0 +1,15 @@
+@import url("https://googleapis.com");
+
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: "Roboto", sans-serif;
+}
+
+
+* {
+  font-family: var(--font-sans) !important;
+  -webkit-font-smoothing: antialiased;
+}
