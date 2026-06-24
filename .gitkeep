@@ -1,0 +1,8 @@
+# Ignorar todo el contenido de esta carpeta
+*
+# Excepto este mismo archivo .gitignore
+!.gitignore
+!.src/hooks
+!.src/utils
+!.src/routes
+
